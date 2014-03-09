@@ -51,11 +51,12 @@ brew cask install onepassword
 brew cask install node
 brew cask install pandora-one
 brew cask install poedit
+brew cask install sequel-pro
+brew cask install sizeup
 brew cask install skype
-brew cask install sublime-text
 brew cask install sourcetree
 brew cask install spotify
-brew cask install sequel-pro
+brew cask install sublime-text
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox
