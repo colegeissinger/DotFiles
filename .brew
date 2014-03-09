@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# Check if Homebrew is installed
+which -s brew
+if [[ $? != 0 ]]; then
+	# Install Homebrew
+	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+else
+	# Update Homebrew
+	brew update
+fi
+
+# Upgrade any already-installed formulae
+brew Upgrade
+
+# Install GNU core utilities (those that come with OS X are outdated)
+echo "Don't forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+
+# Install GNU `find`, `locate`, `udpatedb`, and `xargs`, g-prefixed
+brew install findutils
+
+# Install Bash 4
+brew install bash
+
+# Install wget with IRI support
+brew install wget --enable-iri
+
+#install more recent versions of some OS X tools
+brew tap homebrew/dupes
+brew install homebrew/dupes/grep
+brew tap josegonzalez/homebrew-php
+
+# Install brew-cask
+brew install phinze/cask/brew-cask
+# brew cask alfred link
+
+# Install Mac Apps
+brew cask install adobe-air
+brew cask install adobe-creative-cloud
+brew cask install alfred
+brew cask install chromecast
+brew cask install evernote
+brew cask install firefox
+brew cask install google-chrome
+brew cask install integrity
+brew cask install iterm2
+brew cask install kindle
+brew cask install opera
+brew cask install omniplan
+brew cask install onepassword
+brew cask install node
+brew cask install pandora-one
+brew cask install poedit
+brew cask install skype
+brew cask install sublime-text
+brew cask install sourcetree
+brew cask install spotify
+brew cask install sequel-pro
+brew cask install transmit
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install vlc
+
+#install everything else
+brew install git
+brew install rename
+brew install tree
+
+# Remove outdated version from the cellar
+brew cleanup
