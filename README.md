@@ -1,4 +1,6 @@
 Cole Geissinger's DotFiles
 ==========================
 
-Not much to see here at this moment... Right now I just need to back up my Om My ZSH alias' as I'm facing some issues with my primary computer and need to work on a secondary.
+Contains all the good stuff that produces my preferred configuration on my computer
+
+Really, a lot of this is a complication from [Paul Irsh](https://github.com/paulirish/dotfiles), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) and [Simon Owen](https://github.com/s10wen/dotfiles), but tweaked to me preference.
