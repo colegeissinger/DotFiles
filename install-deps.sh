@@ -33,7 +33,7 @@ chmod +x ~/z/z.sh
 
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
-cd ~/code
+cd ~
 git clone git://github.com/dronir/SpotifyControl.git
 
 
