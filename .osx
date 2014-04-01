@@ -458,13 +458,13 @@ defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 ###############################################################################
 
 # Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 # Install Sublime Text key bindings
-cp -r init/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ (OSX).sublime-keymap 2> /dev/null
+cp -r init/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap 2> /dev/null
 
 # Install Sublime Text console.log snippet
-cp -r init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text*/Packages/User/console_log.sublime-snippet 2> /dev/null
+cp -r init/console_log.sublime-snippet ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/console_log.sublime-snippet 2> /dev/null
 
 ###############################################################################
 # Keep additonal commands separate so diff in future is easy                  #
