@@ -56,7 +56,7 @@ brew cask install sizeup
 brew cask install skype
 brew cask install sourcetree
 brew cask install spotify
-brew cask install sublime-text
+# brew cask install sublime-text
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox
