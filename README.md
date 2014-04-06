@@ -1,10 +1,10 @@
 # Cole Geissinger's DotFiles
 
 Contains all the good stuff that produces my preferred configuration on my computer
-* Installs Homebrew and Homebrew Cask for application management and installation ([View The Complete List](https://github.com/colegeissinger/dotfiles#complete-application-list))
+* Installs [Homebrew](http://brew.sh/) and [Homebrew Cask](https://github.com/phinze/homebrew-cask) for application management and installation ([View The Complete List](https://github.com/colegeissinger/dotfiles#complete-application-list))
 * Awesome Aliases
-* RVM and Node
-* Vim configurations
+* [RVM](https://rvm.io/), [Node](http://nodejs.org/) and [Z](https://github.com/rupa/z)
+* [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) configurations
 * OSX configurations
 * Custom functions
 * And so much more...
@@ -22,7 +22,9 @@ I prefer it in the root of my user directory of the Mac so we'll clone it there.
 	cd ~/DotFiles
 
 ### Install our Dependencies
-If you wish, you install what you need individually, comment out what you don't want or just run it. Let's assume you want it all.
+If you wish, you can install what you need individually, comment out what you don't want or just run it. Let's assume you want it all.
+
+This script will install
 
 	source install-deps.sh
 
