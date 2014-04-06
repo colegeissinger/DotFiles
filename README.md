@@ -57,29 +57,29 @@ That's it! Your Mac should be setup as you see fit!
 ## Complete Application List
 Below is a complete list of applications that will be installed by Homebrew Cask
 
-* Adobe Air
-* Adobe Creative Cloud
-* Alfred
-* AppCleaner
-* ChromeCast
-* Evernote
-* FireFox
-* Google Chrome
-* HipChat
-* iTerm 2
-* Kindle
-* Opera
-* 1Password
-* Node
-* Pandora One
-* PoEdit
-* Sequel Pro
-* SizeUp
-* Skype
-* SourceTree
-* Spotify
-* Sublime Text 2 (waiting for ST3 in the Homebrew Cask repo...)
-* Transmit
-* Vagrant
-* VirtualBox
-* VLC
+* [Adobe Air](https://get.adobe.com/air/)
+* [Adobe Creative Cloud](http://www.adobe.com/products/creativecloud.html)
+* [Alfred](http://www.alfredapp.com/)
+* [AppCleaner](http://www.freemacsoft.net/appcleaner/)
+* [ChromeCast](http://www.google.com/intl/en-US/chrome/devices/chromecast/)
+* [Evernote](http://evernote.com/)
+* [FireFox](http://www.mozilla.org/en-US/firefox/new/)
+* [Google Chrome](https://www.google.com/chrome)
+* [HipChat](https://www.hipchat.com/)
+* [iTerm 2](http://www.iterm2.com/)
+* [Kindle for Mac](http://www.amazon.com/gp/feature.html?docId=1000464931)
+* [Opera](http://www.opera.com/)
+* [1Password](https://agilebits.com/onepassword)
+* [Node](http://nodejs.org/)
+* [Pandora One](https://www.pandora.com/one)
+* [PoEdit](http://www.poedit.net/)
+* [Sequel Pro](http://www.sequelpro.com/)
+* [SizeUp](https://www.irradiatedsoftware.com/sizeup/)
+* [Skype](http://www.skype.com/)
+* [SourceTree](http://www.sourcetreeapp.com/)
+* [Spotify](https://www.spotify.com)
+* [Sublime Text 2](http://www.sublimetext.com/) (waiting for ST3 in the Homebrew Cask repo...)
+* [Transmit](https://panic.com/transmit/)
+* [Vagrant](http://www.vagrantup.com/)
+* [VirtualBox](https://www.virtualbox.org/)
+* [VLC](http://www.videolan.org/vlc/index.html)
