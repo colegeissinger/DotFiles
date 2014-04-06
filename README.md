@@ -2,7 +2,7 @@
 
 Contains all the good stuff that produces my preferred configuration on my computer
 * Installs Homebrew and Homebrew Cask for application management and installation ([View The Complete List](https://github.com/colegeissinger/dotfiles#complete-application-list))
-* Awesome Alias'
+* Awesome Aliases
 * RVM and Node
 * Vim configurations
 * OSX configurations
