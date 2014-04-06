@@ -32,21 +32,20 @@ brew tap josegonzalez/homebrew-php
 
 # Install brew-cask
 brew install phinze/cask/brew-cask
-# brew cask alfred link
 
-# Install Mac Apps
+# Install Mac Apps - For the list of options, check this list out - https://github.com/phinze/homebrew-cask/tree/master/Casks
 brew cask install adobe-air
 brew cask install adobe-creative-cloud
 brew cask install alfred
+brew cask install appcleaner
 brew cask install chromecast
 brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
-brew cask install integrity
+berw cask install hipchat
 brew cask install iterm2
 brew cask install kindle
 brew cask install opera
-brew cask install omniplan
 brew cask install onepassword
 brew cask install node
 brew cask install pandora-one
@@ -56,16 +55,19 @@ brew cask install sizeup
 brew cask install skype
 brew cask install sourcetree
 brew cask install spotify
-# brew cask install sublime-text
+# brew cask install sublime-text - Homebrew Cask only uses Sublime Text 2. I want 3, so this is commented out until that happens.
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
 
-#install everything else
+# install everything else
 brew install git
 brew install rename
 brew install tree
+
+# Link Brew Cask apps with Alfred
+brew cask alfred
 
 # Remove outdated version from the cellar
 brew cleanup
