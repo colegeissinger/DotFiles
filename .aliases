@@ -34,7 +34,7 @@ alias pt-wimp="pt-themes; cd wimp"
 alias pt-watw="pt-themes; cd watw-parent"
 alias pt-auto-filter="pt-plugins; cd auto-filter"
 
-# Detech which `ls` flavor is in use
+# Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
 else # OS X `ls`
@@ -100,9 +100,6 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-# Reload the shell (i.e. invoke as a login shell)
-#alias reload="exec $SHELL -l"
 
 # File size
 alias fs="stat -f \"%z bytes\""
