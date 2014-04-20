@@ -17,12 +17,15 @@ alias st="subl ."
 alias o="open"
 alias oo="open ."
 alias hosts='sudo $EDITOR /etc/hosts'
+alias v='vagrant'
+alias vu='vagrant up'
+alias vh='v halt'
+alias vp='v provision'
+alias vup='vu --provision'
 
 # Website Shortcuts
 alias root="cd ~/Sites"
 alias vvv="root; cd vvv/www"
-alias vvv-up="vvv; vagrant up"
-alias vvv-up-p="vvv; vagrant up --provision"
 alias trunk="vvv; cd wordpress-trunk"
 alias vup="trunk; vagrant up"
 alias themes="trunk; cd wp-content/themes"
