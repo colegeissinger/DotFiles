@@ -19,9 +19,10 @@ alias oo="open ."
 alias hosts='sudo $EDITOR /etc/hosts'
 alias v='vagrant'
 alias vu='vagrant up'
-alias vh='v halt'
-alias vp='v provision'
-alias vup='vu --provision'
+alias vh='vagrant halt'
+alias vp='vagrant provision'
+alias vs='vagrant status'
+alias vup='vagrant up --provision'
 
 # Website Shortcuts
 alias root="cd ~/Sites"
