@@ -48,14 +48,14 @@ brew cask install kindle
 brew cask install opera
 brew cask install onepassword
 brew cask install node
-brew cask install pandora-one
 brew cask install poedit
 brew cask install sequel-pro
 brew cask install sizeup
 brew cask install skype
 brew cask install sourcetree
 brew cask install spotify
-# brew cask install sublime-text - Homebrew Cask only uses Sublime Text 2. I want 3, so this is commented out until that happens.
+# brew cask install phpstorm - Cask also serves phpstorm 7.. NOOPE. Waiting for 8.
+# brew cask install sublime-text - Cask only serves subl 2, where is subl 3?!
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox

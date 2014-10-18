@@ -23,17 +23,20 @@ alias vh='vagrant halt'
 alias vp='vagrant provision'
 alias vs='vagrant status'
 alias vup='vagrant up --provision'
+alias hammer='cleanup; emptytrash; sudo purge'
 
 # Website Shortcuts
 alias root="cd ~/Sites"
-alias vvv="root; cd vvv/www"
-alias trunk="vvv; cd wordpress-trunk"
-alias vup="trunk; vagrant up"
+alias v3="root; cd dev/www"
+alias v3up="v3; vup"
+alias trunk="v3; cd wordpress-trunk"
 alias themes="trunk; cd wp-content/themes"
-alias plugins="trunk; cd wo-content/plugins"
+alias plugins="trunk; cd wp-content/plugins"
+alias playground="v3; cd playground/htdocs"
 alias wimp="themes; cd wimp"
 alias watw="themes; cd watw-parent"
 alias wiki="plugins; cd wiki-wiki"
+alias vip-init="root; cd vip; ./bin/vip-init"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
