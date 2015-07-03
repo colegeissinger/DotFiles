@@ -54,7 +54,7 @@ brew cask install sizeup
 brew cask install skype
 brew cask install sourcetree
 brew cask install spotify
-# brew cask install phpstorm - Cask also serves phpstorm 7.. NOOPE. Waiting for 8.
+brew cask install phpstorm
 # brew cask install sublime-text - Cask only serves subl 2, where is subl 3?!
 brew cask install transmit
 brew cask install vagrant
