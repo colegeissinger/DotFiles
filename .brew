@@ -34,19 +34,21 @@ brew tap josegonzalez/homebrew-php
 brew install phinze/cask/brew-cask
 
 # Install Mac Apps - For the list of options, check this list out - https://github.com/phinze/homebrew-cask/tree/master/Casks
+brew cask install 1password
 brew cask install adobe-air
 brew cask install adobe-creative-cloud
 brew cask install alfred
 brew cask install appcleaner
 brew cask install chromecast
+brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
 berw cask install hipchat
 brew cask install iterm2
+brew cask install java6 # needed for PhpStorm
 brew cask install kindle
 brew cask install opera
-brew cask install onepassword
 brew cask install node
 brew cask install poedit
 brew cask install sequel-pro
@@ -65,9 +67,6 @@ brew cask install vlc
 brew install git
 brew install rename
 brew install tree
-
-# Link Brew Cask apps with Alfred
-brew cask alfred
 
 # Remove outdated version from the cellar
 brew cleanup
