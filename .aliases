@@ -10,6 +10,13 @@ alias -- -="cd -"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
+alias gs="g status"
+alias gc="g commit"
+alias ga="g add"
+alias gp="g push"
+alias gpo="gp origin"
+alias gch="g checkout"
+alias gcb="gc -b"
 alias h="history"
 alias j="jobs"
 alias v="vim"
@@ -23,19 +30,18 @@ alias vh='vagrant halt'
 alias vp='vagrant provision'
 alias vs='vagrant status'
 alias vup='vagrant up --provision'
+alias vip='root; cd vip/www/'
+alias vipup='vip; vu;'
 alias hammer='cleanup; emptytrash; sudo purge'
 
 # Website Shortcuts
 alias root="cd ~/Sites"
-alias v3="root; cd dev/www"
+alias v3="root; cd vvv/www"
+alias v3u="v3; vu"
 alias v3up="v3; vup"
 alias trunk="v3; cd wordpress-trunk"
 alias themes="trunk; cd wp-content/themes"
 alias plugins="trunk; cd wp-content/plugins"
-alias playground="v3; cd playground/htdocs"
-alias wimp="themes; cd wimp"
-alias watw="themes; cd watw-parent"
-alias wiki="plugins; cd wiki-wiki"
 alias vip-init="root; cd vip; ./bin/vip-init"
 
 # Detect which `ls` flavor is in use
